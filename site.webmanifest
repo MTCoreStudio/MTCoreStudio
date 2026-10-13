@@ -1,0 +1,32 @@
+{
+  "name": "MT Core Studio",
+  "short_name": "MT Core Studio",
+  "description": "Independent Android apps by MT Core Studio.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#070c17",
+  "theme_color": "#070c17",
+  "lang": "en",
+  "icons": [
+    {
+      "src": "./assets/images/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/images/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "./assets/images/mt-core-studio-logo.png",
+      "sizes": "1536x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

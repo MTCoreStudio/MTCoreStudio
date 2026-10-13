@@ -1,0 +1,15 @@
+# app-ads.txt — MT Core Studio
+# Published at the root of the developer website for AdMob app verification.
+# Each line lists an advertising system account that is authorized to sell
+# inventory for the apps. Both publisher accounts (A and B) are listed below.
+#
+# This file must stay publicly reachable at the ROOT of the exact domain that
+# is configured as the developer website on each Google Play listing, for
+# example:  https://yourdomain.com/app-ads.txt
+#
+# To add or remove a publisher line, edit this file (or use the MT Core Studio
+# private console at the URL you chose). After any change, wait at least 24 hours,
+# then check the status under AdMob -> Apps -> app-ads.txt.
+
+google.com, pub-7383364741984927, DIRECT, f08c47fec0942fa0
+google.com, pub-1463796060515114, DIRECT, f08c47fec0942fa0

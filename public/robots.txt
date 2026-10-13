@@ -1,0 +1,10 @@
+# MT Core Studio — search engine instructions
+
+User-agent: *
+Allow: /
+Disallow: /meher/
+Disallow: /api/
+
+# Replace https://example.com with your real domain when you connect it.
+# See README-INFINITYFREE.md for the full domain checklist.
+Sitemap: https://mtcorestudio.rf.gd/sitemap.xml

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1536 1536" width="64" height="64" role="img" aria-label="MT Core Studio">
+  <defs>
+    <radialGradient id="bg" cx="35%" cy="30%" r="90%">
+      <stop offset="0%" stop-color="#12315e"/>
+      <stop offset="100%" stop-color="#070c17"/>
+    </radialGradient>
+  </defs>
+  <rect width="1536" height="1536" rx="320" fill="url(#bg)"/>
+  <!-- The official MT Core Studio logo image (same folder) -->
+  <image href="mt-core-studio-logo.png" x="48" y="288" width="1440" height="960"/>
+</svg>

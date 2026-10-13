@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 900" width="540" height="900" role="img" aria-label="Nursing Exam Preparation concept screen - topics with progress">
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef4fb"/>
+      <stop offset="1" stop-color="#f9fbfe"/>
+    </linearGradient>
+    <linearGradient id="ring" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1f7dff"/>
+      <stop offset="1" stop-color="#38dcff"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="12" width="504" height="876" rx="52" fill="#0d1526"/>
+  <rect x="34" y="28" width="472" height="844" rx="42" fill="url(#screen)"/>
+  <text x="62" y="78" font-family="'Segoe UI', sans-serif" font-size="30" font-weight="600" fill="#1b2b48">09:41</text>
+  <g fill="#1b2b48"><rect x="380" y="58" width="22" height="10" rx="3"/><rect x="412" y="58" width="22" height="10" rx="3"/><rect x="444" y="58" width="22" height="10" rx="3"/></g>
+  <rect x="346" y="126" width="116" height="36" rx="18" fill="#0f2a52"/>
+  <text x="404" y="150" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="600" fill="#8fd8ff">CONCEPT</text>
+  <text x="70" y="158" font-family="'Segoe UI', sans-serif" font-size="30" font-weight="700" fill="#0f2a52">Study Topics</text>
+  <text x="70" y="196" font-family="'Segoe UI', sans-serif" font-size="20" fill="#5b6e8c">Practice makes progress</text>
+  <rect x="70" y="236" width="400" height="128" rx="26" fill="#ffffff" stroke="#d2e1f2"/>
+  <circle cx="132" cy="300" r="40" fill="none" stroke="#dfe9f5" stroke-width="12"/>
+  <circle cx="132" cy="300" r="40" fill="none" stroke="url(#ring)" stroke-width="12" stroke-linecap="round" stroke-dasharray="192 251" transform="rotate(-90 132 300)"/>
+  <text x="132" y="310" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="26" font-weight="700" fill="#10233f">6</text>
+  <text x="132" y="332" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="14" fill="#8ba0bd">topics</text>
+  <text x="200" y="286" font-family="'Segoe UI', sans-serif" font-size="22" font-weight="600" fill="#10233f">Readiness</text>
+  <text x="200" y="318" font-family="'Segoe UI', sans-serif" font-size="18" fill="#5b6e8c">Solid foundation in progress</text>
+  <rect x="200" y="342" width="210" height="10" rx="5" fill="#e3edfa"/>
+  <rect x="200" y="342" width="110" height="10" rx="5" fill="#1f7dff"/>
+  <rect x="70" y="388" width="400" height="96" rx="22" fill="#ffffff" stroke="#dbe7f7"/>
+  <text x="104" y="426" font-family="'Segoe UI', sans-serif" font-size="21" font-weight="600" fill="#10233f">Fundamentals of Nursing</text>
+  <text x="104" y="458" font-family="'Segoe UI', sans-serif" font-size="16" fill="#5b6e8c">240 questions</text>
+  <rect x="334" y="396" width="30" height="30" rx="15" fill="#eaf2f7"/>
+  <text x="349" y="417" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#2f81ff">&gt;</text>
+  <rect x="70" y="498" width="400" height="96" rx="22" fill="#ffffff" stroke="#dbe7f7"/>
+  <text x="104" y="536" font-family="'Segoe UI', sans-serif" font-size="21" font-weight="600" fill="#10233f">Pharmacology</text>
+  <text x="104" y="568" font-family="'Segoe UI', sans-serif" font-size="16" fill="#5b6e8c">180 questions</text>
+  <rect x="334" y="506" width="30" height="30" rx="15" fill="#eaf2f7"/>
+  <text x="349" y="527" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#2f81ff">&gt;</text>
+  <rect x="70" y="608" width="400" height="96" rx="22" fill="#ffffff" stroke="#dbe7f7"/>
+  <text x="104" y="646" font-family="'Segoe UI', sans-serif" font-size="21" font-weight="600" fill="#10233f">Medical-Surgical Nursing</text>
+  <text x="104" y="678" font-family="'Segoe UI', sans-serif" font-size="16" fill="#5b6e8c">320 questions</text>
+  <rect x="334" y="616" width="30" height="30" rx="15" fill="#eaf2f7"/>
+  <text x="349" y="637" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#2f81ff">&gt;</text>
+  <rect x="70" y="718" width="400" height="96" rx="22" fill="#ffffff" stroke="#dbe7f7"/>
+  <text x="104" y="756" font-family="'Segoe UI', sans-serif" font-size="21" font-weight="600" fill="#10233f">Maternity &amp; Pediatrics</text>
+  <text x="104" y="788" font-family="'Segoe UI', sans-serif" font-size="16" fill="#5b6e8c">150 questions</text>
+  <rect x="334" y="726" width="30" height="30" rx="15" fill="#eaf2f7"/>
+  <text x="349" y="747" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="20" fill="#2f81ff">&gt;</text>
+</svg>

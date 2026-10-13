@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 900" width="540" height="900" role="img" aria-label="Daily Spark concept screen - today's spark">
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eaf3ff"/>
+      <stop offset="1" stop-color="#f6faff"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#eaf2ff"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="12" width="504" height="876" rx="52" fill="#0d1526"/>
+  <rect x="34" y="28" width="472" height="844" rx="42" fill="url(#screen)"/>
+  <text x="62" y="78" font-family="'Segoe UI', sans-serif" font-size="30" font-weight="600" fill="#1b2b48">09:41</text>
+  <g fill="#1b2b48"><rect x="380" y="58" width="22" height="10" rx="3"/><rect x="412" y="58" width="22" height="10" rx="3"/><rect x="444" y="58" width="22" height="10" rx="3"/></g>
+  <rect x="346" y="126" width="116" height="36" rx="18" fill="#0f2a52"/>
+  <text x="404" y="150" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="600" fill="#8fd8ff">CONCEPT</text>
+  <text x="70" y="158" font-family="'Segoe UI', sans-serif" font-size="34" font-weight="700" fill="#0f2a52">Daily Spark</text>
+  <text x="70" y="196" font-family="'Segoe UI', sans-serif" font-size="20" fill="#5b6e8c">Morning · a fresh start</text>
+  <rect x="70" y="240" width="400" height="368" rx="30" fill="url(#card)" stroke="#cfe0f5"/>
+  <text x="120" y="332" font-family="'Segoe UI', sans-serif" font-size="19" letter-spacing="2" fill="#2f81ff">TODAY'S SPARK</text>
+  <text x="120" y="402" font-family="'Segoe UI', sans-serif" font-size="30" font-weight="700" fill="#10233f">Small progress is</text>
+  <text x="120" y="444" font-family="'Segoe UI', sans-serif" font-size="30" font-weight="700" fill="#10233f">still progress.</text>
+  <rect x="120" y="492" width="300" height="10" rx="5" fill="#e0ebfa"/>
+  <rect x="120" y="522" width="240" height="10" rx="5" fill="#e0ebfa"/>
+  <rect x="120" y="552" width="270" height="10" rx="5" fill="#e0ebfa"/>
+  <rect x="120" y="608" width="300" height="64" rx="32" fill="#1f7dff"/>
+  <text x="270" y="649" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="22" font-weight="600" fill="#ffffff">Mark as read</text>
+  <circle cx="180" cy="806" r="9" fill="#1f7dff"/>
+  <text x="180" y="842" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#1f7dff">Today</text>
+  <text x="270" y="842" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#93a5c2">Archive</text>
+  <text x="360" y="842" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="17" fill="#93a5c2">Settings</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 900" width="540" height="900" role="img" aria-label="Shift Schedule concept screen - month view">
+  <defs>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#eef4fb"/>
+      <stop offset="1" stop-color="#f9fbfe"/>
+    </linearGradient>
+  </defs>
+  <rect x="18" y="12" width="504" height="876" rx="52" fill="#0d1526"/>
+  <rect x="34" y="28" width="472" height="844" rx="42" fill="url(#screen)"/>
+  <text x="62" y="78" font-family="'Segoe UI', sans-serif" font-size="30" font-weight="600" fill="#1b2b48">09:41</text>
+  <g fill="#1b2b48"><rect x="380" y="58" width="22" height="10" rx="3"/><rect x="412" y="58" width="22" height="10" rx="3"/><rect x="444" y="58" width="22" height="10" rx="3"/></g>
+  <rect x="346" y="126" width="116" height="36" rx="18" fill="#0f2a52"/>
+  <text x="404" y="150" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="16" font-weight="600" fill="#8fd8ff">CONCEPT</text>
+  <text x="70" y="158" font-family="'Segoe UI', sans-serif" font-size="30" font-weight="700" fill="#0f2a52">Month view</text>
+  <text x="70" y="196" font-family="'Segoe UI', sans-serif" font-size="20" fill="#5b6e8c">April 2026</text>
+  <g font-family="'Segoe UI', sans-serif" font-size="18" fill="#8ba0bd" text-anchor="middle">
+    <text x="99"  y="252">MON</text><text x="167" y="252">TUE</text><text x="235" y="252">WED</text><text x="303" y="252">THU</text><text x="371" y="252">FRI</text><text x="439" y="252">SAT</text><text x="507" y="252">SUN</text>
+  </g>
+  <g font-family="'Segoe UI', sans-serif">
+    <rect x="70" y="272" width="54" height="54" rx="14" fill="#eef4fb"/><text x="97" y="306" text-anchor="middle" font-size="19" fill="#5b6e8c">1</text>
+    <rect x="134" y="272" width="54" height="54" rx="14" fill="#eef4fb"/><text x="161" y="306" text-anchor="middle" font-size="19" fill="#5b6e8c">2</text>
+    <g><rect x="198" y="272" width="54" height="54" rx="14" fill="#e2edff"/><rect x="208" y="308" width="34" height="6" rx="3" fill="#38a5ff"/><text x="225" y="306" text-anchor="middle" font-size="19" fill="#2f81ff">3</text></g>
+    <rect x="262" y="272" width="54" height="54" rx="14" fill="#eef4fb"/><text x="289" y="306" text-anchor="middle" font-size="19" fill="#5b6e8c">4</text>
+    <g><rect x="326" y="272" width="54" height="54" rx="14" fill="#eef4fb"/><rect x="336" y="308" width="34" height="6" rx="3" fill="#7a6ff0"/><text x="353" y="306" text-anchor="middle" font-size="19" fill="#5b6e8c">5</text></g>
+    <g><rect x="390" y="272" width="54" height="54" rx="14" fill="#eef4fb"/><rect x="400" y="308" width="34" height="6" rx="3" fill="#2fd69c"/><text x="417" y="306" text-anchor="middle" font-size="19" fill="#5b6e8c">6</text></g>
+    <rect x="454" y="272" width="54" height="54" rx="14" fill="#eef4fb"/><text x="481" y="306" text-anchor="middle" font-size="19" fill="#5b6e8c">7</text>
+    <g><rect x="70" y="336" width="54" height="54" rx="14" fill="#eef4fb"/><rect x="80" y="372" width="34" height="6" rx="3" fill="#38a5ff"/><text x="97" y="370" text-anchor="middle" font-size="19" fill="#5b6e8c">8</text></g>
+    <g><rect x="134" y="336" width="54" height="54" rx="14" fill="#eef4fb"/><rect x="144" y="372" width="34" height="6" rx="3" fill="#f2b94a"/><text x="161" y="370" text-anchor="middle" font-size="19" fill="#5b6e8c">9</text></g>
+    <rect x="198" y="336" width="54" height="54" rx="14" fill="#eef4fb"/><text x="225" y="370" text-anchor="middle" font-size="19" fill="#5b6e8c">10</text>
+    <g><rect x="262" y="336" width="54" height="54" rx="14" fill="#eef4fb"/><rect x="272" y="372" width="34" height="6" rx="3" fill="#38a5ff"/><text x="289" y="370" text-anchor="middle" font-size="19" fill="#5b6e8c">11</text></g>
+    <rect x="326" y="336" width="54" height="54" rx="14" fill="#eef4fb"/><text x="353" y="370" text-anchor="middle" font-size="19" fill="#5b6e8c">12</text>
+    <g><rect x="390" y="336" width="54" height="54" rx="14" fill="#eef4fb"/><rect x="400" y="372" width="34" height="6" rx="3" fill="#7a6ff0"/><text x="417" y="370" text-anchor="middle" font-size="19" fill="#5b6e8c">13</text></g>
+    <rect x="454" y="336" width="54" height="54" rx="14" fill="#eef4fb"/><text x="481" y="370" text-anchor="middle" font-size="19" fill="#5b6e8c">14</text>
+    <g><rect x="70" y="400" width="54" height="54" rx="14" fill="#eef4fb"/><rect x="80" y="436" width="34" height="6" rx="3" fill="#38a5ff"/><text x="97" y="434" text-anchor="middle" font-size="19" fill="#5b6e8c">15</text></g>
+    <rect x="134" y="400" width="54" height="54" rx="14" fill="#eef4fb"/><text x="161" y="434" text-anchor="middle" font-size="19" fill="#5b6e8c">16</text>
+    <g><rect x="198" y="400" width="54" height="54" rx="14" fill="#eef4fb"/><rect x="208" y="436" width="34" height="6" rx="3" fill="#f2b94a"/><text x="225" y="434" text-anchor="middle" font-size="19" fill="#5b6e8c">17</text></g>
+    <g><rect x="262" y="400" width="54" height="54" rx="14" fill="#eef4fb"/><rect x="272" y="436" width="34" height="6" rx="3" fill="#38a5ff"/><text x="289" y="434" text-anchor="middle" font-size="19" fill="#5b6e8c">18</text></g>
+    <rect x="326" y="400" width="54" height="54" rx="14" fill="#eef4fb"/><text x="353" y="434" text-anchor="middle" font-size="19" fill="#5b6e8c">19</text>
+    <g><rect x="390" y="400" width="54" height="54" rx="14" fill="#eef4fb"/><rect x="400" y="436" width="34" height="6" rx="3" fill="#7a6ff0"/><text x="417" y="434" text-anchor="middle" font-size="19" fill="#5b6e8c">20</text></g>
+    <g><rect x="454" y="400" width="54" height="54" rx="14" fill="#eef4fb"/><rect x="464" y="436" width="34" height="6" rx="3" fill="#2fd69c"/><text x="481" y="434" text-anchor="middle" font-size="19" fill="#5b6e8c">21</text></g>
+  </g>
+  <rect x="70" y="486" width="400" height="120" rx="24" fill="#ffffff" stroke="#d2e1f2"/>
+  <text x="104" y="528" font-family="'Segoe UI', sans-serif" font-size="21" font-weight="600" fill="#10233f">Shift colour key</text>
+  <rect x="104" y="552" width="16" height="16" rx="5" fill="#38a5ff"/><text x="134" y="566" font-family="'Segoe UI', sans-serif" font-size="17" fill="#5b6e8c">Morning</text>
+  <rect x="216" y="552" width="16" height="16" rx="5" fill="#f2b94a"/><text x="246" y="566" font-family="'Segoe UI', sans-serif" font-size="17" fill="#5b6e8c">Evening</text>
+  <rect x="332" y="552" width="16" height="16" rx="5" fill="#7a6ff0"/><text x="362" y="566" font-family="'Segoe UI', sans-serif" font-size="17" fill="#5b6e8c">Night</text>
+  <rect x="104" y="580" width="16" height="16" rx="5" fill="#2fd69c"/><text x="134" y="594" font-family="'Segoe UI', sans-serif" font-size="17" fill="#5b6e8c">Day off</text>
+  <rect x="70" y="630" width="400" height="190" rx="24" fill="#ffffff" stroke="#d2e1f2"/>
+  <text x="104" y="676" font-family="'Segoe UI', sans-serif" font-size="21" font-weight="600" fill="#10233f">Rotation pattern</text>
+  <text x="104" y="708" font-family="'Segoe UI', sans-serif" font-size="18" fill="#5b6e8c">2 mornings · 2 nights · 2 off</text>
+  <rect x="104" y="726" width="330" height="10" rx="5" fill="#e3edfa"/>
+  <rect x="104" y="748" width="280" height="10" rx="5" fill="#e3edfa"/>
+  <rect x="104" y="770" width="330" height="10" rx="5" fill="#e3edfa"/>
+  <text x="104" y="798" font-family="'Segoe UI', sans-serif" font-size="15" fill="#8ba0bd">Tap any day to add or edit a shift</text>
+  <circle cx="430" cy="760" r="36" fill="#1f7dff"/>
+  <text x="430" y="772" text-anchor="middle" font-family="'Segoe UI', sans-serif" font-size="32" fill="#ffffff" font-weight="600">+</text>
+</svg>
+
