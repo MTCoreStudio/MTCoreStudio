@@ -1,53 +1,243 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#060910">
-  <meta name="author" content="MT Core Studio">
-  <meta name="robots" content="index, follow">
-  <title>MT Core Studio | Android Apps &amp; Software Studio</title>
-  <meta name="description" content="MT Core Studio is an independent Android app developer and software studio. Explore a growing collection of useful, lightweight mobile applications built for everyday life.">
-  <link rel="canonical" href="https://mtcorestudio.rf.gd/">
-  <!-- Open Graph -->
-  <meta property="og:type" content="website">
-  <meta property="og:site_name" content="MT Core Studio">
-  <meta property="og:title" content="MT Core Studio | Android Apps &amp; Software Studio">
-  <meta property="og:description" content="Independent Android app developer and software studio building useful, lightweight mobile applications.">
-  <meta property="og:url" content="https://mtcorestudio.rf.gd/">
-  <meta property="og:image" content="https://mtcorestudio.rf.gd/assets/images/mt-core-studio-logo.png">
-  <meta property="og:image:alt" content="MT Core Studio logo">
-  <!-- Twitter -->
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="MT Core Studio | Android Apps &amp; Software Studio">
-  <meta name="twitter:description" content="Independent Android app developer and software studio building useful, lightweight mobile applications.">
-  <meta name="twitter:image" content="https://mtcorestudio.rf.gd/assets/images/mt-core-studio-logo.png">
-  <!-- Icons -->
-  <link rel="icon" type="image/svg+xml" href="./assets/images/favicon.svg">
-  <link rel="icon" type="image/png" href="./assets/images/mt-core-studio-logo.png">
-  <link rel="apple-touch-icon" href="./assets/images/mt-core-studio-logo.png">
-  <link rel="manifest" href="./site.webmanifest">
-  <!-- Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&family=Sora:wght@400;500;600;700&display=swap">
-  <!-- Apply saved theme before first paint to avoid a flash -->
-  <script>
-    (function () {
-      try {
-        if (localStorage.getItem("mt-core-studio-theme") === "light") {
-          document.documentElement.setAttribute("data-theme", "light");
-        }
-      } catch (e) {}
-    })();
-  </script>
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/live.css">
-  <script type="module" src="./js/main.js"></script>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MT Core Studio | Building Useful Apps for Everyday Life</title>
+<meta name="description" content="MT Core Studio builds modern Android apps that are simple, useful and made with passion.">
+<link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap">
+<style>
+:root{--bg:#030712;--bg2:#0b0f19;--glass:rgba(15,23,42,.75);--bd:rgba(148,190,255,.16);--tx:#e8eefc;--mu:#93a4c3;--cy:#00f2fe;--bl:#4facfe;--pu:#a855f7;--gr:#10b981;--am:#f59e0b;--g1:linear-gradient(90deg,#00f2fe,#4facfe 45%,#a855f7)}
+[data-theme=light]{--bg:#eef3fb;--bg2:#e2eaf7;--glass:rgba(255,255,255,.8);--bd:rgba(30,60,120,.16);--tx:#0e1a33;--mu:#4a5d7c}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:radial-gradient(1200px 600px at 75% -10%,rgba(79,172,254,.22),transparent 60%),radial-gradient(900px 500px at 5% 30%,rgba(168,85,247,.16),transparent 60%),var(--bg);color:var(--tx);font:16px/1.6 "Plus Jakarta Sans",system-ui,sans-serif;-webkit-font-smoothing:antialiased;min-height:100vh}
+#stars{position:fixed;inset:0;z-index:-1;pointer-events:none}
+h1,h2,h3{margin:0;line-height:1.1;letter-spacing:-.02em}a{color:inherit;text-decoration:none}button{font:inherit;color:inherit;cursor:pointer}
+.w{width:min(1180px,calc(100% - 36px));margin-inline:auto}.gt{background:var(--g1);-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}
+.gl{background:var(--glass);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border:1px solid var(--bd);border-radius:20px}
+/* header */
+header{position:sticky;top:0;z-index:40;background:var(--glass);backdrop-filter:blur(16px);border-bottom:1px solid var(--bd)}
+.nv{display:flex;align-items:center;gap:18px;height:72px}.br{display:flex;align-items:center;gap:12px;font-weight:800;font-size:17px}.br img{height:40px;width:auto;border-radius:10px;filter:drop-shadow(0 0 12px rgba(0,242,254,.5))}.br small{display:block;font-weight:500;font-size:10.5px;color:var(--mu);letter-spacing:.14em}
+.lk{display:flex;gap:4px;margin:0 auto}.lk a{padding:8px 16px;border-radius:99px;color:var(--mu);font-weight:600;font-size:14.5px;position:relative}.lk a:hover,.lk a.on{color:var(--tx)}.lk a.on::after{content:"";position:absolute;left:18px;right:18px;bottom:2px;height:2px;background:var(--cy);box-shadow:0 0 10px var(--cy);border-radius:2px}
+.bt{display:inline-flex;align-items:center;gap:8px;padding:12px 24px;border-radius:99px;border:1px solid transparent;font-weight:700;font-size:14.5px;transition:.25s;white-space:nowrap}
+.bp{background:linear-gradient(90deg,#00b4ff,#7a5cff);color:#fff;box-shadow:0 0 24px rgba(79,172,254,.45)}.bp:hover{transform:translateY(-2px);box-shadow:0 0 38px rgba(79,172,254,.7)}
+.bo{background:transparent;border-color:rgba(168,85,247,.55);color:var(--tx)}.bo:hover{background:rgba(168,85,247,.14);box-shadow:0 0 22px rgba(168,85,247,.4)}.bs{padding:8px 14px;font-size:12.5px}
+.ib{width:40px;height:40px;border-radius:50%;border:1px solid var(--bd);background:transparent;display:grid;place-items:center}.mb{display:none}
+/* hero */
+.view{display:none;animation:vi .5s ease both}.view.on{display:block}@keyframes vi{from{opacity:0;transform:translateY(14px)}to{opacity:1;transform:none}}
+.hero{display:grid;grid-template-columns:1.05fr .95fr;gap:40px;align-items:center;padding:64px 0 48px}
+.pill{display:inline-flex;gap:8px;padding:8px 16px;border-radius:99px;border:1px solid rgba(0,242,254,.5);background:rgba(0,242,254,.07);font-size:13px;font-weight:600;animation:pl 2.4s ease-in-out infinite}@keyframes pl{50%{box-shadow:0 0 20px rgba(0,242,254,.5)}}
+.hero h1{font-size:clamp(40px,5.8vw,70px);font-weight:800;margin:20px 0}.hero p.s{color:var(--mu);font-size:18px;max-width:500px;margin:0 0 28px}.row{display:flex;gap:14px;flex-wrap:wrap}
+.st{display:grid;grid-template-columns:repeat(4,auto);gap:22px;margin-top:38px;justify-content:start}.st b{display:block;font-size:24px;font-weight:800}.st span{font-size:12.5px;color:var(--mu)}
+.ph3{position:relative;height:540px;perspective:1000px;display:grid;place-items:center}.ph{width:250px;height:510px;border-radius:38px;border:3px solid #2b3f66;background:#050a16;padding:10px;box-shadow:0 0 70px rgba(79,172,254,.45),inset 0 0 30px rgba(0,242,254,.15);transition:transform .15s;transform-style:preserve-3d}
+.ph .sc{height:100%;border-radius:28px;overflow:hidden;background:linear-gradient(160deg,#0b1a3a,#1b0f3d);display:grid;place-items:center;position:relative}.sc img{width:100%;height:100%;object-fit:cover;position:absolute;inset:0;opacity:0;transition:opacity .8s}.sc img.on{opacity:1}.sc .lg{width:46%;filter:drop-shadow(0 0 20px var(--cy))}
+.ft{position:absolute;padding:9px 16px;border-radius:14px;font-weight:700;font-size:13px;border:1px solid var(--bd);background:var(--glass);backdrop-filter:blur(10px);animation:fl 5s ease-in-out infinite}.ft:nth-of-type(1){top:70px;left:0;color:var(--bl);box-shadow:0 0 22px rgba(79,172,254,.4)}.ft:nth-of-type(2){top:200px;right:-6px;color:var(--pu);animation-delay:-1.5s;box-shadow:0 0 22px rgba(168,85,247,.4)}.ft:nth-of-type(3){bottom:70px;left:14px;color:var(--gr);animation-delay:-3s;box-shadow:0 0 22px rgba(16,185,129,.4)}@keyframes fl{50%{transform:translateY(-14px)}}
+/* sections */
+section.s{padding:56px 0}.sh{display:flex;justify-content:space-between;align-items:end;gap:16px;flex-wrap:wrap;margin-bottom:28px}.sh h2{font-size:clamp(28px,3.6vw,42px);font-weight:800}.sh p{color:var(--mu);margin:8px 0 0}.eb{font-size:12px;font-weight:700;letter-spacing:.16em;color:var(--cy);text-transform:uppercase}
+.tabs{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:24px}.tb{padding:9px 18px;border-radius:99px;border:1px solid var(--bd);background:transparent;color:var(--mu);font-weight:600;font-size:14px}.tb.on,.tb:hover{color:#fff;border-color:var(--cy);background:rgba(0,242,254,.12);box-shadow:0 0 16px rgba(0,242,254,.3)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:20px}
+.cd{position:relative;padding:22px;transition:transform .2s,box-shadow .3s,border-color .3s;transform-style:preserve-3d;display:flex;flex-direction:column;gap:12px}.cd:hover{border-color:var(--cy);box-shadow:0 20px 50px rgba(0,0,0,.5),0 0 30px rgba(0,242,254,.25)}
+.ch{display:flex;gap:14px;align-items:center}.ic{width:58px;height:58px;border-radius:15px;object-fit:cover;flex:none;display:grid;place-items:center;font-size:28px;background:linear-gradient(135deg,var(--c1,#4facfe),var(--c2,#a855f7));box-shadow:0 0 20px rgba(79,172,254,.35)}
+.cd h3{font-size:18px}.tg{font-size:12.5px;color:var(--mu)}.cd p{margin:0;color:var(--mu);font-size:14.5px;flex:1}.tag{align-self:flex-start;padding:4px 12px;border-radius:99px;font-size:12px;font-weight:700}.tag.p{background:rgba(16,185,129,.16);color:var(--gr)}.tag.c{background:rgba(168,85,247,.18);color:#c78bff}.tag.d{background:rgba(245,158,11,.16);color:var(--am)}
+.gp{display:flex;justify-content:center;width:100%;padding:11px;border-radius:12px;border:1px solid var(--bd);font-weight:700;font-size:13px;letter-spacing:.04em;background:rgba(79,172,254,.08)}.gp:hover{border-color:var(--cy);background:rgba(0,242,254,.14)}
+.fe{display:grid;grid-template-columns:.9fr 1.1fr;gap:36px;align-items:center;padding:36px}.fe ul{list-style:none;padding:0;margin:24px 0;display:grid;gap:12px}.fe li{display:flex;gap:14px;align-items:center;padding:14px 16px;border-radius:14px;border:1px solid var(--bd);background:rgba(79,172,254,.05)}
+.fp{display:grid;place-items:center}.fp .ph{height:430px;width:215px;border-radius:32px}
+.tl{position:relative;display:grid;gap:18px;padding-left:28px}.tl::before{content:"";position:absolute;left:7px;top:6px;bottom:6px;width:2px;background:linear-gradient(var(--cy),var(--pu))}.ti{position:relative;padding:20px 22px}.ti::before{content:"";position:absolute;left:-26px;top:26px;width:12px;height:12px;border-radius:50%;background:var(--cy);box-shadow:0 0 14px var(--cy)}.ti h3{font-size:17px;margin-bottom:6px}.ti ul{margin:8px 0 0;padding-left:18px;color:var(--mu);font-size:14.5px}.vt{padding:3px 10px;border-radius:99px;background:rgba(79,172,254,.18);color:var(--bl);font-size:12px;font-weight:700;margin-right:8px}
+.tech{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:16px}.tech div{padding:20px;text-align:center;font-weight:700}.tech i{display:block;font-size:30px;font-style:normal;margin-bottom:6px}
+input,textarea,select{width:100%;padding:12px 14px;border-radius:12px;border:1px solid var(--bd);background:rgba(3,7,18,.55);color:var(--tx);font:inherit;margin-top:6px}[data-theme=light] input,[data-theme=light] textarea,[data-theme=light] select{background:#fff}input:focus,textarea:focus,select:focus{outline:0;border-color:var(--cy);box-shadow:0 0 0 3px rgba(0,242,254,.15)}label{display:block;font-size:13px;color:var(--mu);font-weight:600;margin-bottom:12px}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:28px}
+footer{border-top:1px solid var(--bd);margin-top:40px;padding:30px 0;background:var(--glass);color:var(--mu);font-size:14px}.fr{display:flex;justify-content:space-between;gap:18px;flex-wrap:wrap;align-items:center}.fr nav{display:flex;gap:18px;flex-wrap:wrap}.fr a:hover{color:var(--cy)}
+/* admin */
+#adm{position:fixed;inset:0;z-index:100;background:rgba(3,7,18,.82);backdrop-filter:blur(8px);display:none;padding:2.5vh 2.5vw}#adm.on{display:block;animation:vi .3s ease both}
+.ad{height:100%;display:grid;grid-template-columns:220px 1fr;grid-template-rows:62px 1fr;overflow:hidden;background:#070d1c;color:#e8eefc;--glass:rgba(15,23,42,.75);--bd:rgba(148,190,255,.16);--mu:#93a4c3;--tx:#e8eefc}
+.at{grid-column:1/3;display:flex;align-items:center;gap:14px;padding:0 20px;border-bottom:1px solid var(--bd)}.at b{font-size:16px}.at span{color:var(--mu)}.at .sp{flex:1}.dot{width:9px;height:9px;border-radius:50%;background:var(--gr);box-shadow:0 0 10px var(--gr)}
+.as{border-right:1px solid var(--bd);padding:14px 10px;display:flex;flex-direction:column;gap:4px;overflow:auto}.as button{text-align:left;padding:11px 14px;border-radius:11px;border:0;background:transparent;color:var(--mu);font-weight:600;font-size:14px}.as button:hover{background:rgba(79,172,254,.1);color:#fff}.as button.on{background:linear-gradient(90deg,rgba(79,172,254,.28),rgba(79,172,254,.06));color:#fff;box-shadow:inset 3px 0 0 var(--cy)}
+.am{overflow:auto;padding:24px}.ap{display:none}.ap.on{display:block;animation:vi .35s ease both}.am h2{font-size:22px;margin-bottom:18px}.am h3{font-size:16px;margin-bottom:12px}
+.k{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:14px;margin-bottom:18px}.k div{padding:16px 18px;border-radius:14px;border:1px solid var(--bd);background:rgba(79,172,254,.06);border-left:3px solid var(--cy)}.k div:nth-child(2){border-left-color:var(--gr)}.k div:nth-child(3){border-left-color:var(--am)}.k div:nth-child(4){border-left-color:var(--pu)}.k b{display:block;font-size:26px}.k span{font-size:12px;color:var(--mu);text-transform:uppercase;letter-spacing:.06em}
+.pn{padding:20px;border-radius:16px;border:1px solid var(--bd);background:rgba(15,23,42,.6);margin-bottom:18px}.g2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+.ar{display:flex;align-items:center;gap:12px;padding:12px 14px;border:1px solid var(--bd);border-radius:14px;margin-bottom:10px;background:rgba(15,23,42,.5);flex-wrap:wrap}.ar .ic{width:44px;height:44px;font-size:21px;border-radius:12px}.ar .nm{flex:1;min-width:140px}.ar small{color:var(--mu);display:block}.ar.hid{opacity:.5}.acts{display:flex;gap:6px;flex-wrap:wrap}.acts button{padding:6px 12px;border-radius:9px;border:1px solid var(--bd);background:transparent;font-size:12.5px;font-weight:600;color:#e8eefc}.acts button:hover{border-color:var(--cy);background:rgba(0,242,254,.1)}.acts .x:hover{border-color:#f0647f;background:rgba(240,100,127,.15)}
+.gauge{width:100%;max-width:240px;margin:auto;display:block}.bars{display:flex;align-items:end;gap:10px;height:120px}.bars div{flex:1;border-radius:8px 8px 0 0;background:linear-gradient(var(--cy),var(--pu));min-height:6px;position:relative}.bars span{position:absolute;bottom:-22px;left:0;right:0;text-align:center;font-size:11px;color:var(--mu)}
+.nt{padding:14px 16px;border-radius:12px;border:1px solid rgba(245,158,11,.4);background:rgba(245,158,11,.08);font-size:14px;margin-bottom:18px}.shots{display:flex;gap:12px;flex-wrap:wrap}.shots img{height:150px;border-radius:12px;border:1px solid var(--bd);background:#0b1224}
+#toast{position:fixed;bottom:26px;left:50%;transform:translate(-50%,30px);padding:12px 20px;border-radius:14px;background:#0f1a2d;border:1px solid var(--cy);color:#fff;opacity:0;transition:.35s;z-index:200;pointer-events:none}#toast.on{opacity:1;transform:translate(-50%,0)}
+@media(max-width:900px){.hero,.fe,.two,.g2{grid-template-columns:1fr}.ph3{height:480px}.lk{display:none;position:absolute;top:72px;left:0;right:0;flex-direction:column;background:var(--bg2);padding:12px;border-bottom:1px solid var(--bd);margin:0}.lk.o{display:flex}.mb{display:grid}.gpb{display:none}.st{grid-template-columns:repeat(2,auto)}.ad{grid-template-columns:1fr;grid-template-rows:62px auto 1fr}.as{flex-direction:row;overflow-x:auto;border-right:0;border-bottom:1px solid var(--bd)}.as button{white-space:nowrap}.at{grid-column:1}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
 </head>
-<body data-page="home">
-  <div id="site-header"></div>
-  <main class="page-main" id="main-content" tabindex="-1"></main>
-  <div id="site-footer"></div>
+<body>
+<canvas id="stars"></canvas>
+<header><div class="w nv">
+ <a class="br" href="#/home"><img src="assets/images/mt-core-studio-logo.png" alt="MT Core Studio logo"><span>MT Core Studio<small>APPS • TOOLS • BETTER TOMORROW</small></span></a>
+ <nav class="lk" id="lk"><a href="#/home">Home</a><a href="#/apps">Apps</a><a href="#/about">About</a><a href="#/updates">Updates</a><a href="#/contact">Contact</a></nav>
+ <button class="ib" id="th" aria-label="Toggle theme" title="Theme">◐</button>
+ <a class="bt bo bs gpb" id="gp" href="#" target="_blank" rel="noopener">▶ Google Play</a>
+
+ <button class="ib mb" id="mb" aria-label="Menu">☰</button>
+</div></header>
+<main>
+<div class="view" id="v-home"><div class="w">
+ <div class="hero"><div>
+  <span class="pill">✨ Welcome to MT Core Studio</span>
+  <h1>Building <span class="gt">Useful Apps</span> for Everyday Life.</h1>
+  <p class="s">Modern Android apps, smart tools and digital experiences — made with passion, built for utility and happy users.</p>
+  <div class="row"><a class="bt bp" href="#/apps">Explore Apps →</a><a class="bt bo" href="#/about">About Studio</a></div>
+  <div class="st" id="st"></div>
+ </div><div class="ph3" id="ph3"><span class="ft">Smart Tools</span><span class="ft">Better Apps</span><span class="ft">Brighter Future</span>
+  <div class="ph" id="ph"><div class="sc" id="scr"><img class="lg" src="assets/images/mt-core-studio-logo.png" alt=""></div></div></div></div>
+ <section class="s"><div class="sh"><div><span class="eb">Our Apps</span><h2>Explore Our <span class="gt">Android Apps</span></h2><p>Useful, creative and practical apps for your daily life.</p></div><a class="bt bo bs" href="#/apps">View all apps →</a></div><div class="grid" id="g-home"></div></section>
+ <section class="s"><div class="gl fe" id="feat"></div></section>
+ <section class="s"><div class="sh"><div><span class="eb">Changelog</span><h2>Latest <span class="gt">Updates</span></h2></div><a class="bt bo bs" href="#/updates">All updates →</a></div><div class="tl" id="tl-home"></div></section>
+</div></div>
+<div class="view" id="v-apps"><div class="w"><section class="s"><div class="sh"><div><span class="eb">Portfolio</span><h2>Android <span class="gt">Apps</span></h2><p>Filter by category.</p></div></div><div class="tabs" id="tabs"></div><div class="grid" id="g-apps"></div></section></div></div>
+<div class="view" id="v-about"><div class="w"><section class="s"><div class="sh"><div><span class="eb">About</span><h2>We are <span class="gt">MT Core Studio</span></h2></div></div>
+ <div class="gl" style="padding:30px;margin-bottom:26px"><p style="margin:0;color:var(--mu);font-size:17px">We create modern Android apps that are simple, useful and make life easier. We focus on quality, performance and user satisfaction — idea, design, code, testing and support, all in one small team.</p></div>
+ <div class="sh"><div><span class="eb">Tech</span><h2>Our <span class="gt">Tech Stack</span></h2></div></div>
+ <div class="tech"><div class="gl"><i>🐦</i>Flutter</div><div class="gl"><i>🤖</i>Android</div><div class="gl"><i>✨</i>AI Integration</div><div class="gl"><i>🗄️</i>PHP / MySQL</div><div class="gl"><i>🎨</i>UI / UX Design</div></div></section></div></div>
+<div class="view" id="v-updates"><div class="w"><section class="s"><div class="sh"><div><span class="eb">Changelog</span><h2>Recent <span class="gt">Updates</span></h2></div></div><div class="tl" id="tl-all"></div></section></div></div>
+<div class="view" id="v-contact"><div class="w"><section class="s"><div class="sh"><div><span class="eb">Contact</span><h2>Get in <span class="gt">touch</span></h2><p>Questions, support or ideas — write to us.</p></div></div>
+ <div class="two"><form class="gl" style="padding:26px" id="cf"><label>Your name<input id="cn" required></label><label>Message<textarea id="cm" rows="6" required></textarea></label><button class="bt bp" type="submit">Send via email →</button></form>
+ <div class="gl" style="padding:26px"><h3>Email</h3><p id="ce" style="color:var(--mu)"></p><div id="cs"></div></div></div></section></div></div>
+</main>
+<footer><div class="w fr"><a class="br" href="#/home"><img src="assets/images/mt-core-studio-logo.png" alt="" style="height:34px"><span>MT Core Studio</span></a><nav><a href="#/home">Home</a><a href="#/apps">Apps</a><a href="#/about">About</a><a href="#/updates">Updates</a><a href="#/contact">Contact</a><a href="privacy.html">Privacy Policy</a><a href="terms.html">Terms</a></nav><span>© <span id="yr"></span> MT Core Studio</span></div></footer>
+
+<div id="adm" role="dialog" aria-label="Admin panel"><div class="ad gl">
+ <div class="at"><img src="assets/images/mt-core-studio-logo.png" alt="" style="height:30px;border-radius:7px"><b>MT Core Studio Admin <span>| Dashboard</span></b><div class="sp"></div><span class="dot" title="Local mode"></span><button class="ib" id="ax" aria-label="Close admin">✕</button></div>
+ <div class="as" id="as"><button data-p="dash" class="on">▦ Dashboard</button><button data-p="apps">☰ My Apps</button><button data-p="edit">✎ App Details</button><button data-p="media">▣ Media Library</button><button data-p="health">♥ System Health</button><button data-p="set">⚙ Settings</button></div>
+ <div class="am">
+  <div class="ap on" id="p-dash"><h2>Dashboard</h2><div class="k" id="kp"></div><div class="nt" id="nt"></div><div class="g2"><div class="pn"><h3>Apps by status</h3><div class="bars" id="bars"></div><div style="height:22px"></div></div><div class="pn"><h3>Latest changes</h3><div id="lc"></div></div></div><div class="pn"><h3>Portfolio apps</h3><div id="dl"></div></div></div>
+  <div class="ap" id="p-apps"><h2>My Apps</h2><div style="margin-bottom:14px"><button class="bt bp bs" id="na">+ Add new app</button></div><div id="al"></div></div>
+  <div class="ap" id="p-edit"><h2 id="et">Add / Edit App</h2><form class="pn" id="ef"><input type="hidden" id="f-id"><div class="g2"><label>Title<input id="f-name" required></label><label>Category<select id="f-cat"></select></label></div><label>Tagline<input id="f-tag"></label><label>Description<textarea id="f-desc" rows="3"></textarea></label><div class="g2"><label>Version<input id="f-ver" placeholder="v1.0.0"></label><label>Status<select id="f-st"><option>Published</option><option>Coming Soon</option><option>Draft</option></select></label></div><label>Google Play / store link<input id="f-url" type="url" placeholder="https://play.google.com/..."></label><label>Icon image URL (optional)<input id="f-icon"></label><label>Screenshot URLs (comma separated)<input id="f-shots"></label><div class="row"><button class="bt bp" type="submit">Save app</button><button class="bt bo" type="button" id="fc">Cancel</button></div></form></div>
+  <div class="ap" id="p-media"><h2>Media Library</h2><div id="ml"></div></div>
+  <div class="ap" id="p-health"><h2>System Health</h2><div class="g2"><div class="pn"><h3>API response</h3><svg class="gauge" viewBox="0 0 200 120"><path d="M20 100A80 80 0 0 1 180 100" fill="none" stroke="#1d2b4a" stroke-width="16" stroke-linecap="round"/><path id="gv" d="M20 100A80 80 0 0 1 180 100" fill="none" stroke="#10b981" stroke-width="16" stroke-linecap="round" stroke-dasharray="251" stroke-dashoffset="251"/><text id="gt" x="100" y="96" text-anchor="middle" fill="#fff" font-size="26" font-weight="800">–</text></svg><p style="text-align:center;color:var(--mu);margin:6px 0 0" id="gm">Not checked</p></div><div class="pn"><h3>Checks</h3><div id="hc" style="display:grid;gap:10px"></div><br><button class="bt bp bs" id="rc">Run checks</button></div></div></div>
+  <div class="ap" id="p-set"><h2>Settings</h2><form class="pn" id="sf"><h3>Hero stats (shown on the website)</h3><div class="g2"><label>Stat 1 value<input id="s-1v"></label><label>Stat 1 label<input id="s-1l"></label><label>Stat 2 value<input id="s-2v"></label><label>Stat 2 label<input id="s-2l"></label><label>Stat 3 value<input id="s-3v"></label><label>Stat 3 label<input id="s-3l"></label><label>Stat 4 value<input id="s-4v"></label><label>Stat 4 label<input id="s-4l"></label></div><label>Google Play developer page URL<input id="s-gp" type="url"></label><label>Contact email<input id="s-em" type="email"></label><button class="bt bp" type="submit">Save settings</button></form><div class="pn"><h3>Data</h3><div class="row"><button class="bt bo bs" id="ex">Export JSON</button><label class="bt bo bs" style="margin:0">Import JSON<input id="im" type="file" accept=".json" hidden></label><button class="bt bo bs" id="rs">Reset to defaults</button></div></div></div>
+ </div></div></div>
+<div id="toast" role="status"></div>
+<script>
+const KEY="mtcs_v1",$=s=>document.querySelector(s),$$=s=>[...document.querySelectorAll(s)];
+const E=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[m]));
+const A="assets/apps/";
+const seed=()=>({apps:[
+{id:"daily-spark",name:"Daily Spark",cat:"Productivity",tag:"Quotes • Motivation • Quiz",desc:"Get inspired every day with powerful quotes, motivation messages, flashcards and fun quizzes. Make your day brighter!",ver:"v1.2.0",st:"Coming Soon",url:"",icon:A+"com-dailyspark-quotes.png",shots:[A+"daily-spark-1.svg",A+"daily-spark-2.svg"],hid:false,feat:["Inspirational Quotes","Flashcards","Daily Quiz","Multiple Languages"],c:["#f59e0b","#ef4444"],e:"☀"},
+{id:"shiftsync",name:"ShiftSync",cat:"Productivity",tag:"Work • Schedule • Life",desc:"Manage your work shifts, schedules and never miss your next duty.",ver:"v1.0.5",st:"Coming Soon",url:"",icon:A+"com-trdevworks-shiftsync-app.png",shots:[A+"shift-schedule-1.svg",A+"shift-schedule-2.svg"],hid:false,c:["#4facfe","#00f2fe"],e:"🗓"},
+{id:"nursing-exam-prep",name:"Nursing Exam Preparation",cat:"Education",tag:"Study • Practice • Pass",desc:"Prepare for nursing exams with practice questions, explanations and mock tests.",ver:"v1.0.3",st:"Coming Soon",url:"",icon:A+"com-nurseexampreparation-nursing.png",shots:[A+"nursing-exam-1.svg",A+"nursing-exam-2.svg"],hid:false,c:["#a855f7","#4facfe"],e:"🩺"},
+{id:"habit-hero",name:"Habit Hero",cat:"Utility",tag:"Habits • Goals • Progress",desc:"Build better habits, track progress and become a better you.",ver:"v1.0.0",st:"Draft",url:"",icon:"",shots:[],hid:false,c:["#10b981","#84cc16"],e:"✅"},
+{id:"ruqyah-expo",name:"Ruqyah Expo",cat:"Spiritual",tag:"Islam • Healing • Peace",desc:"Listen to Ruqyah, read Quran and get spiritual guidance.",ver:"v1.0.0",st:"Coming Soon",url:"",icon:"",shots:[],hid:false,c:["#06b6d4","#6366f1"],e:"📖"}],
+log:[{app:"Daily Spark",ver:"v1.2.0",date:"2026-10-01",title:"Internal build",notes:["Daily prompt flow working on device","Archive and dark/light themes in place"]},{app:"Nursing Exam Preparation",ver:"v1.0.3",date:"2026-09-28",title:"Question bank progress",notes:["Quiz flow in progress","Study mode and progress tracking being designed"]}],
+set:{s:[["6+","Apps in portfolio"],["50K+","Happy users"],["2+","AdMob accounts"],["100%","Passion"]],gp:"",em:"trrahat03@gmail.com"}});
+let S;try{S=JSON.parse(localStorage.getItem(KEY))||seed()}catch(e){S=seed()}
+const save=()=>{try{localStorage.setItem(KEY,JSON.stringify(S))}catch(e){}render()};
+const toast=m=>{const t=$("#toast");t.textContent=m;t.classList.add("on");clearTimeout(toast.t);toast.t=setTimeout(()=>t.classList.remove("on"),2200)};
+const cats=()=>["All",...new Set(S.apps.filter(a=>!a.hid).map(a=>a.cat))];
+const stc=a=>a.st==="Published"?"p":a.st==="Draft"?"d":"c";
+const ico=a=>a.icon?`<img class="ic" src="${E(a.icon)}" alt="" loading="lazy">`:`<div class="ic" style="--c1:${(a.c||[])[0]||"#4facfe"};--c2:${(a.c||[])[1]||"#a855f7"}">${E(a.e||a.name[0])}</div>`;
+const card=a=>`<article class="cd gl"><div class="ch">${ico(a)}<div><h3>${E(a.name)}</h3><div class="tg">${E(a.tag)}</div></div></div><p>${E(a.desc)}</p><span class="tag ${stc(a)}">${a.st==="Draft"?"In development":E(a.st)}</span>${a.st==="Published"&&a.url?`<a class="gp" href="${E(a.url)}" target="_blank" rel="noopener">▶ GET IT ON GOOGLE PLAY</a>`:`<a class="gp" href="#/contact?app=${encodeURIComponent(a.name)}">🔔 GET NOTIFIED</a>`}</article>`;
+let cat="All",slide=0;
+function render(){
+ const vis=S.apps.filter(a=>!a.hid);
+ $("#st").innerHTML=S.set.s.map(([v,l])=>`<div><b class="cnt">${E(v)}</b><span>${E(l)}</span></div>`).join("");
+ $("#g-home").innerHTML=vis.slice(0,6).map(card).join("")||"<p>No apps yet.</p>";
+ if(!cats().includes(cat))cat="All";
+ $("#tabs").innerHTML=cats().map(c=>`<button class="tb ${c===cat?"on":""}" data-c="${E(c)}">${E(c)}</button>`).join("");
+ $("#g-apps").innerHTML=vis.filter(a=>cat==="All"||a.cat===cat).map(card).join("")||"<p>No apps in this category.</p>";
+ const f=vis.find(a=>a.feat)||vis[0];
+ $("#feat").innerHTML=f?`<div class="fp"><div class="ph"><div class="sc">${f.shots&&f.shots[0]?`<img class="on" src="${E(f.shots[0])}" alt="">`:`<img class="lg on" src="assets/images/mt-core-studio-logo.png" alt="" style="position:static;width:46%;height:auto">`}</div></div></div><div><span class="eb">Featured App</span><h2 style="margin:10px 0 6px;font-size:36px">${E(f.name)}</h2><div class="tg">${E(f.tag)}</div><p style="color:var(--mu)">${E(f.desc)}</p><ul>${(f.feat||["Fast & lightweight","Clean interface","Made with care"]).map(x=>`<li>✦ ${E(x)}</li>`).join("")}</ul>${f.st==="Published"&&f.url?`<a class="bt bp" href="${E(f.url)}" target="_blank" rel="noopener">View on Google Play →</a>`:`<a class="bt bp" href="#/contact?app=${encodeURIComponent(f.name)}">Get notified →</a>`}</div>`:"";
+ const lg=n=>[...S.log].sort((a,b)=>b.date.localeCompare(a.date)).slice(0,n).map(u=>`<div class="ti gl"><h3><span class="vt">${E(u.ver)}</span>${E(u.app)} — ${E(u.title)}</h3><small style="color:var(--mu)">${E(u.date)}</small><ul>${(u.notes||[]).map(x=>`<li>${E(x)}</li>`).join("")}</ul></div>`).join("")||"<p>No updates yet.</p>";
+ $("#tl-home").innerHTML=lg(3);$("#tl-all").innerHTML=lg(99);
+ const gp=S.set.gp;$("#gp").href=gp||"#";$("#gp").style.display=gp?"":"none";
+ $("#ce").textContent=S.set.em;$("#cs").innerHTML=gp?`<a class="bt bo bs" href="${E(gp)}" target="_blank" rel="noopener">▶ Google Play</a>`:"";
+ shots();admin();
+}
+function shots(){const imgs=S.apps.filter(a=>!a.hid).flatMap(a=>a.shots||[]);$("#scr").innerHTML=`<img class="lg on" src="assets/images/mt-core-studio-logo.png" alt="" style="position:static;width:46%;height:auto">`+imgs.map(s=>`<img src="${E(s)}" alt="">`).join("")}
+setInterval(()=>{const im=$$("#scr img:not(.lg)");if(!im.length)return;im.forEach(i=>i.classList.remove("on"));$("#scr .lg").style.opacity=0;im[slide++%im.length].classList.add("on")},2600);
+/* router */
+function route(){const h=(location.hash||"#/home").slice(2).split("?")[0],p=["home","apps","about","updates","contact"].includes(h)?h:"home";
+ $$(".view").forEach(v=>v.classList.toggle("on",v.id==="v-"+p));$$("#lk a").forEach(a=>a.classList.toggle("on",a.getAttribute("href")==="#/"+p));$("#lk").classList.remove("o");scrollTo({top:0});
+ if(p==="contact"){const m=new URLSearchParams((location.hash.split("?")[1]||"")).get("app");if(m)$("#cm").value=`Please notify me when ${m} launches.`}
+ if(p==="home")count()}
+function count(){$$(".cnt").forEach(n=>{const m=n.textContent.match(/^(\D*)([\d,.]+)(.*)$/);if(!m)return;const e=parseFloat(m[2].replace(/,/g,"")),t0=performance.now();(function f(t){const k=Math.min(1,(t-t0)/1200),v=Math.round(e*(1-Math.pow(1-k,3)));n.textContent=m[1]+v.toLocaleString()+m[3];if(k<1)requestAnimationFrame(f)})(t0)})}
+addEventListener("hashchange",route);
+/* ui */
+$("#mb").onclick=()=>$("#lk").classList.toggle("o");
+$("#th").onclick=()=>{const d=document.documentElement,l=d.dataset.theme==="light";l?delete d.dataset.theme:d.dataset.theme="light";try{localStorage.setItem("mtcs_theme",l?"dark":"light")}catch(e){}};
+try{if(localStorage.getItem("mtcs_theme")==="light")document.documentElement.dataset.theme="light"}catch(e){}
+$("#tabs").onclick=e=>{const b=e.target.closest("[data-c]");if(b){cat=b.dataset.c;render()}};
+$("#cf").onsubmit=e=>{e.preventDefault();location.href=`mailto:${S.set.em}?subject=${encodeURIComponent("Message from "+$("#cn").value)}&body=${encodeURIComponent($("#cm").value)}`};
+$("#yr").textContent=new Date().getFullYear();
+if(matchMedia("(hover:hover)").matches&&!matchMedia("(prefers-reduced-motion:reduce)").matches){
+ $("#ph3").addEventListener("pointermove",e=>{const r=e.currentTarget.getBoundingClientRect();$("#ph").style.transform=`rotateY(${((e.clientX-r.left)/r.width-.5)*26}deg) rotateX(${-((e.clientY-r.top)/r.height-.5)*20}deg)`});
+ $("#ph3").addEventListener("pointerleave",()=>$("#ph").style.transform="");
+ document.addEventListener("pointermove",e=>{const c=e.target.closest&&e.target.closest(".cd");if(!c)return;const r=c.getBoundingClientRect();c.style.transform=`perspective(800px) rotateX(${-((e.clientY-r.top)/r.height-.5)*8}deg) rotateY(${((e.clientX-r.left)/r.width-.5)*8}deg) translateY(-6px)`});
+ document.addEventListener("pointerout",e=>{const c=e.target.closest&&e.target.closest(".cd");if(c&&!c.contains(e.relatedTarget))c.style.transform=""})}
+/* stars */
+(()=>{const c=$("#stars"),x=c.getContext("2d");let s=[];function rs(){c.width=innerWidth;c.height=innerHeight;s=Array.from({length:Math.min(140,innerWidth/8)},()=>({x:Math.random()*c.width,y:Math.random()*c.height,r:Math.random()*1.4+.2,v:Math.random()*.15+.03,p:Math.random()*6}))}rs();addEventListener("resize",rs);
+(function f(t){x.clearRect(0,0,c.width,c.height);s.forEach(o=>{o.y+=o.v;if(o.y>c.height)o.y=0;x.globalAlpha=.4+.5*Math.sin(t/900+o.p);x.fillStyle="#9fd8ff";x.beginPath();x.arc(o.x,o.y,o.r,0,7);x.fill()});requestAnimationFrame(f)})(0)})();
+/* ADMIN */
+const ad=$("#adm"),open=v=>{ad.classList.toggle("on",v);document.body.style.overflow=v?"hidden":""};
+$("#ao").onclick=()=>open(true);$("#ax").onclick=()=>open(false);
+addEventListener("keydown",e=>{if(e.ctrlKey&&e.shiftKey&&e.key.toLowerCase()==="a"){e.preventDefault();open(!ad.classList.contains("on"))}else if(e.key==="Escape")open(false)});
+const go=p=>{$$(".ap").forEach(x=>x.classList.toggle("on",x.id==="p-"+p));$$("#as button").forEach(b=>b.classList.toggle("on",b.dataset.p===p))};
+$("#as").onclick=e=>{const b=e.target.closest("button");if(b)go(b.dataset.p)};
+const rowH=a=>`<div class="ar ${a.hid?"hid":""}">${ico(a)}<div class="nm"><b>${E(a.name)}</b><small>${E(a.cat)} · ${E(a.ver)} · ${E(a.st)}${a.hid?" · hidden":""}</small></div><div class="acts"><button data-a="view" data-i="${E(a.id)}">View</button><button data-a="edit" data-i="${E(a.id)}">Edit</button><button data-a="hide" data-i="${E(a.id)}">${a.hid?"Show":"Hide"}</button><button data-a="ver" data-i="${E(a.id)}">Update V</button><button class="x" data-a="del" data-i="${E(a.id)}">Delete</button></div></div>`;
+function admin(){const n=S.apps.length,p=S.apps.filter(a=>a.st==="Published").length;
+ $("#kp").innerHTML=`<div><b>${n}</b><span>Total apps</span></div><div><b>${p}</b><span>Published</span></div><div><b>${S.apps.filter(a=>a.st!=="Published").length}</b><span>Not live yet</span></div><div><b>${S.log.length}</b><span>Updates logged</span></div>`;
+ $("#nt").innerHTML="ℹ️ <b>Local mode:</b> changes are saved in this browser only (localStorage). Visitors on other devices will not see them. AdMob / Google Play analytics are not connected.";
+ const c={Published:0,"Coming Soon":0,Draft:0};S.apps.forEach(a=>c[a.st]=(c[a.st]||0)+1);const mx=Math.max(1,...Object.values(c));
+ $("#bars").innerHTML=Object.entries(c).map(([k,v])=>`<div style="height:${v/mx*100}%"><span>${k} (${v})</span></div>`).join("");
+ $("#lc").innerHTML=[...S.log].sort((a,b)=>b.date.localeCompare(a.date)).slice(0,4).map(u=>`<div style="margin-bottom:10px"><b>${E(u.app)} ${E(u.ver)}</b><small style="display:block;color:var(--mu)">${E(u.date)} · ${E(u.title)}</small></div>`).join("");
+ $("#dl").innerHTML=S.apps.map(rowH).join("");$("#al").innerHTML=S.apps.map(rowH).join("")||"<p>No apps.</p>";
+ $("#ml").innerHTML=S.apps.map(a=>`<div class="pn"><h3>${E(a.name)}</h3><div class="shots">${a.icon?`<img src="${E(a.icon)}" alt="" style="height:90px">`:""}${(a.shots||[]).map(s=>`<img src="${E(s)}" alt="">`).join("")||"<small style='color:var(--mu)'>No images yet. Add URLs in App Details.</small>"}</div></div>`).join("");
+ $("#f-cat").innerHTML=["Utility","Education","Productivity","Spiritual","Lifestyle","Entertainment"].map(c=>`<option>${c}</option>`).join("");
+ S.set.s.forEach((x,i)=>{$("#s-"+(i+1)+"v").value=x[0];$("#s-"+(i+1)+"l").value=x[1]});$("#s-gp").value=S.set.gp;$("#s-em").value=S.set.em}
+const fill=a=>{go("edit");$("#et").textContent=a?"Edit app":"Add new app";$("#f-id").value=a?a.id:"";$("#f-name").value=a?a.name:"";$("#f-cat").value=a?a.cat:"Utility";$("#f-tag").value=a?a.tag:"";$("#f-desc").value=a?a.desc:"";$("#f-ver").value=a?a.ver:"v1.0.0";$("#f-st").value=a?a.st:"Draft";$("#f-url").value=a?a.url:"";$("#f-icon").value=a?a.icon:"";$("#f-shots").value=a?(a.shots||[]).join(", "):""};
+$("#na").onclick=()=>fill(null);$("#fc").onclick=()=>go("apps");
+ad.addEventListener("click",e=>{const b=e.target.closest("[data-a]");if(!b)return;const a=S.apps.find(x=>x.id===b.dataset.i);if(!a)return;const k=b.dataset.a;
+ if(k==="view"){open(false);location.hash="#/apps"}else if(k==="edit")fill(a);else if(k==="hide"){a.hid=!a.hid;save();toast(a.hid?"App hidden":"App visible")}
+ else if(k==="del"){if(confirm(`Delete "${a.name}"?`)){S.apps=S.apps.filter(x=>x!==a);save();toast("App deleted")}}
+ else if(k==="ver"){const v=prompt("New version (e.g. v1.3.0):",a.ver);if(!v)return;const n=prompt("What changed? (short note)","Improvements and bug fixes");a.ver=v;S.log.push({app:a.name,ver:v,date:new Date().toISOString().slice(0,10),title:"New release",notes:[n||"Update"]});save();toast("Version updated")}});
+$("#ef").onsubmit=e=>{e.preventDefault();const id=$("#f-id").value,o={name:$("#f-name").value.trim(),cat:$("#f-cat").value,tag:$("#f-tag").value.trim(),desc:$("#f-desc").value.trim(),ver:$("#f-ver").value.trim()||"v1.0.0",st:$("#f-st").value,url:$("#f-url").value.trim(),icon:$("#f-icon").value.trim(),shots:$("#f-shots").value.split(",").map(s=>s.trim()).filter(Boolean)};
+ if(id){Object.assign(S.apps.find(a=>a.id===id),o)}else{o.id=o.name.toLowerCase().replace(/[^a-z0-9]+/g,"-")+"-"+Date.now().toString(36);o.hid=false;o.c=["#4facfe","#a855f7"];S.apps.push(o)}
+ save();go("apps");toast("App saved")};
+$("#sf").onsubmit=e=>{e.preventDefault();S.set.s=[1,2,3,4].map(i=>[$("#s-"+i+"v").value,$("#s-"+i+"l").value]);S.set.gp=$("#s-gp").value.trim();S.set.em=$("#s-em").value.trim();save();toast("Settings saved")};
+$("#ex").onclick=()=>{const a=document.createElement("a");a.href=URL.createObjectURL(new Blob([JSON.stringify(S,null,2)],{type:"application/json"}));a.download="mtcorestudio-data.json";a.click()};
+$("#im").onchange=e=>{const f=e.target.files[0];if(!f)return;f.text().then(t=>{try{const d=JSON.parse(t);if(!d.apps||!d.set)throw 0;S=d;save();toast("Imported")}catch(x){toast("Invalid file")}})};
+$("#rs").onclick=()=>{if(confirm("Reset all data to defaults?")){S=seed();save();toast("Reset")}};
+async function health(){const t=performance.now();let ok=false,ms="–";try{const r=await fetch(location.href.split("#")[0],{cache:"no-store"});ok=r.ok;ms=Math.round(performance.now()-t)}catch(e){}
+ let ls=false;try{localStorage.setItem("_t","1");localStorage.removeItem("_t");ls=true}catch(e){}
+ const g=$("#gv");g.style.strokeDashoffset=ok?251*(1-Math.max(.08,1-ms/800)):251;g.style.stroke=!ok?"#ef4444":ms<300?"#10b981":"#f59e0b";$("#gt").textContent=ok?ms+"ms":"n/a";$("#gm").textContent=ok?"Page fetch time (measured live)":"Could not fetch (open via http/https)";
+ $("#hc").innerHTML=[["Website reachable",ok],["Browser storage (admin data)",ls],["Google Play sync",null],["AdMob sync",null]].map(([n,v])=>`<div style="display:flex;justify-content:space-between"><span>${n}</span><b style="color:${v===null?"#93a4c3":v?"#10b981":"#ef4444"}">${v===null?"Not connected":v?"OK":"Failed"}</b></div>`).join("")}
+$("#rc").onclick=health;health();
+render();route();
+</script>
+<script>
+(function(){
+function handleRoute(){
+  // Hidden admin panel route: https://mtcorestudio.rf.gd/meher
+  (function(){
+if(location.pathname === '/meher' || location.hash === '#/meher'){
+function handleRoute(){
+    function handleRoute(){
+      if(location.pathname === '/meher' || location.hash === '#/meher'){
+handleRoute();
+open(false);
+open(true);
+        open(true);
+// Run on initial load
+open(false);
+      } else {
+// Run on initial load
+window.addEventListener('hashchange', handleRoute);
+window.addEventListener('popstate', handleRoute);
+// Listen for hash changes and history navigation
+        open(false);
+      }
+    }
+    // Run on initial load
+    handleRoute();
+    // Listen for hash changes and history navigation
+    window.addEventListener('hashchange', handleRoute);
+    window.addEventListener('popstate', handleRoute);
+  })();
+</script>
+
 </body>
 </html>

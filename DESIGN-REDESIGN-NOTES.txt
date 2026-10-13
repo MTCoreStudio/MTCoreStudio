@@ -1,8 +1,0 @@
-MT Core Studio visual redesign notes
-
-- The existing multi-page site architecture and shared renderer are preserved.
-- The supplied neon/cyan/purple/pink glassmorphism reference was adapted into css/style.css.
-- Existing logo and app images in assets/ remain unchanged and are still used by the site.
-- Existing page routes, centralized data, API endpoints, and the separate /meher admin console were not replaced.
-- No admin dashboard or admin modal was added to the public website.
-- This is a visual CSS adaptation, not a security audit. Test on a staging copy before uploading.
