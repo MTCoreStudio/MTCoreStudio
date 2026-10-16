@@ -1,0 +1,153 @@
+{
+ "apps": [
+  {
+   "id": "daily-spark",
+   "name": "Daily Spark",
+   "cat": "Productivity",
+   "tag": "Quotes • Motivation • Quiz",
+   "desc": "Get inspired every day with powerful quotes, motivation messages, flashcards and fun quizzes. Make your day brighter!",
+   "ver": "v1.2.0",
+   "st": "Coming Soon",
+   "url": "",
+   "icon": "assets/apps/com-dailyspark-quotes.png",
+   "shots": [
+    "assets/apps/daily-spark-1.svg",
+    "assets/apps/daily-spark-2.svg"
+   ],
+   "hid": false,
+   "feat": [
+    "Inspirational Quotes",
+    "Flashcards",
+    "Daily Quiz",
+    "Multiple Languages"
+   ],
+   "c": [
+    "#f59e0b",
+    "#ef4444"
+   ],
+   "e": "☀"
+  },
+  {
+   "id": "shiftsync",
+   "name": "ShiftSync",
+   "cat": "Productivity",
+   "tag": "Work • Schedule • Life",
+   "desc": "Manage your work shifts, schedules and never miss your next duty.",
+   "ver": "v1.0.5",
+   "st": "Coming Soon",
+   "url": "",
+   "icon": "assets/apps/com-trdevworks-shiftsync-app.png",
+   "shots": [
+    "assets/apps/shift-schedule-1.svg",
+    "assets/apps/shift-schedule-2.svg"
+   ],
+   "hid": false,
+   "c": [
+    "#4facfe",
+    "#00f2fe"
+   ],
+   "e": "🗓"
+  },
+  {
+   "id": "nursing-exam-prep",
+   "name": "Nursing Exam Preparation",
+   "cat": "Education",
+   "tag": "Study • Practice • Pass",
+   "desc": "Prepare for nursing exams with practice questions, explanations and mock tests.",
+   "ver": "v1.0.3",
+   "st": "Coming Soon",
+   "url": "",
+   "icon": "assets/apps/com-nurseexampreparation-nursing.png",
+   "shots": [
+    "assets/apps/nursing-exam-1.svg",
+    "assets/apps/nursing-exam-2.svg"
+   ],
+   "hid": false,
+   "c": [
+    "#a855f7",
+    "#4facfe"
+   ],
+   "e": "🩺"
+  },
+  {
+   "id": "habit-hero",
+   "name": "Habit Hero",
+   "cat": "Utility",
+   "tag": "Habits • Goals • Progress",
+   "desc": "Build better habits, track progress and become a better you.",
+   "ver": "v1.0.0",
+   "st": "Draft",
+   "url": "",
+   "icon": "",
+   "shots": [],
+   "hid": false,
+   "c": [
+    "#10b981",
+    "#84cc16"
+   ],
+   "e": "✅"
+  },
+  {
+   "id": "ruqyah-expo",
+   "name": "Ruqyah Expo",
+   "cat": "Spiritual",
+   "tag": "Islam • Healing • Peace",
+   "desc": "Listen to Ruqyah, read Quran and get spiritual guidance.",
+   "ver": "v1.0.0",
+   "st": "Coming Soon",
+   "url": "",
+   "icon": "",
+   "shots": [],
+   "hid": false,
+   "c": [
+    "#06b6d4",
+    "#6366f1"
+   ],
+   "e": "📖"
+  }
+ ],
+ "log": [
+  {
+   "app": "Daily Spark",
+   "ver": "v1.2.0",
+   "date": "2026-10-01",
+   "title": "Internal build",
+   "notes": [
+    "Daily prompt flow working on device",
+    "Archive and dark/light themes in place"
+   ]
+  },
+  {
+   "app": "Nursing Exam Preparation",
+   "ver": "v1.0.3",
+   "date": "2026-09-28",
+   "title": "Question bank progress",
+   "notes": [
+    "Quiz flow in progress",
+    "Study mode and progress tracking being designed"
+   ]
+  }
+ ],
+ "set": {
+  "s": [
+   [
+    "6+",
+    "Apps in portfolio"
+   ],
+   [
+    "50K+",
+    "Happy users"
+   ],
+   [
+    "2+",
+    "AdMob accounts"
+   ],
+   [
+    "100%",
+    "Passion"
+   ]
+  ],
+  "gp": "",
+  "em": "trrahat03@gmail.com"
+ }
+}

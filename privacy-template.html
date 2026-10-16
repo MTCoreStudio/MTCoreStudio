@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Privacy Policy - MT Core Studio</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box}
+        body{font-family:'Plus Jakarta Sans',system-ui,-apple-system,sans-serif;background:#030712;color:#e2e8f0;line-height:1.7;padding:2rem}
+        .container{max-width:800px;margin:0 auto}
+        h1{color:#fff;margin-bottom:1rem;font-size:2rem}
+        h2{color:#fff;margin:2rem 0 1rem;font-size:1.5rem}
+        h3{color:#fff;margin:1.5rem 0 0.75rem;font-size:1.25rem}
+        p{margin-bottom:1rem;color:#94a3b8}
+        ul,ol{margin:1rem 0 1rem 2rem;color:#94a3b8}
+        li{margin-bottom:0.5rem}
+        a{color:#4facfe;text-decoration:none}
+        a:hover{text-decoration:underline}
+        .back-btn{display:inline-block;margin-top:2rem;padding:0.75rem 1.5rem;background:#4facfe;color:#fff;border-radius:8px;text-decoration:none}
+        .back-btn:hover{background:#00f2fe}
+        hr{border:0;border-top:1px solid #1e293b;margin:2rem 0}
+    </style>
+</head>
+<body>
+    <div class="container" id="content">
+        <h1>Loading Privacy Policy...</h1>
+    </div>
+    
+    <script>
+        // Get app ID from URL
+        const path = window.location.pathname;
+        const appId = path.split('/').pop().replace('.html', '');
+        
+        // App configurations with GitHub privacy policy URLs
+        const apps = {
+            'daily-spark': {
+                name: 'Daily Spark',
+                github: 'https://github.com/yourusername/policies/blob/main/daily-spark-privacy.md'
+            },
+            'shiftsync': {
+                name: 'ShiftSync',
+                github: 'https://github.com/yourusername/policies/blob/main/shiftsync-privacy.md'
+            },
+            'nursing-exam-prep': {
+                name: 'Nursing Exam Preparation',
+                github: 'https://github.com/yourusername/policies/blob/main/nursing-exam-privacy.md'
+            },
+            'habit-hero': {
+                name: 'Habit Hero',
+                github: 'https://github.com/yourusername/policies/blob/main/habit-hero-privacy.md'
+            },
+            'ruqyah-expo': {
+                name: 'Ruqyah Expo',
+                github: 'https://github.com/yourusername/policies/blob/main/ruqyah-expo-privacy.md'
+            }
+        };
+        
+        async function loadPrivacy() {
+            const app = apps[appId];
+            if (!app) {
+                document.getElementById('content').innerHTML = `
+                    <h1>Privacy Policy Not Found</h1>
+                    <p>The requested privacy policy does not exist.</p>
+                    <a href="index.html" class="back-btn">← Back to Home</a>
+                `;
+                return;
+            }
+            
+            try {
+                // Convert GitHub URL to raw content URL
+                const rawUrl = app.github
+                    .replace('github.com', 'raw.githubusercontent.com')
+                    .replace('/blob/', '/');
+                
+                const response = await fetch(rawUrl);
+                if (!response.ok) throw new Error('Failed to fetch');
+                
+                const markdown = await response.text();
+                
+                // Simple markdown to HTML conversion
+                let html = markdown
+                    .replace(/^# (.*$)/gim, '<h1>$1</h1>')
+                    .replace(/^## (.*$)/gim, '<h2>$1</h2>')
+                    .replace(/^### (.*$)/gim, '<h3>$1</h3>')
+                    .replace(/\*\*(.*)\*\*/gim, '<strong>$1</strong>')
+                    .replace(/\*(.*)\*/gim, '<em>$1</em>')
+                    .replace(/\n/gim, '<br>');
+                
+                document.getElementById('content').innerHTML = `
+                    <h1>${app.name} - Privacy Policy</h1>
+                    ${html}
+                    <hr>
+                    <a href="index.html" class="back-btn">← Back to MT Core Studio</a>
+                `;
+            } catch (error) {
+                document.getElementById('content').innerHTML = `
+                    <h1>Error Loading Policy</h1>
+                    <p>Could not load the privacy policy. Please try again later.</p>
+                    <p><small>Error: ${error.message}</small></p>
+                    <a href="index.html" class="back-btn">← Back to Home</a>
+                `;
+            }
+        }
+        
+        loadPrivacy();
+    </script>
+</body>
+</html>

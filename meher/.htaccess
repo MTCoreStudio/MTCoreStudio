@@ -1,0 +1,14 @@
+Options -Indexes
+<IfModule mod_authz_core.c>
+  <FilesMatch "\.(json|tmp|log)$">
+    Require all denied
+  </FilesMatch>
+</IfModule>
+
+AddType application/manifest+json .webmanifest
+<IfModule mod_headers.c>
+  <Files "sw.js">
+    Header set Cache-Control "no-cache"
+    Header set Service-Worker-Allowed "/meher/"
+  </Files>
+</IfModule>

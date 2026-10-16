@@ -1,0 +1,21 @@
+{
+ "users": [
+  {
+   "id": "u_owner",
+   "name": "Owner",
+   "emails": [
+    "trrahat03@gmail.com",
+    "trrahat03@gmaail.com"
+   ],
+   "role": "owner",
+   "perms": [],
+   "active": true,
+   "iter": 210000,
+   "salt": "3ce697ed8e5d4a463b335dc09e2511d1",
+   "hash": "d35fbd42b1c4b810aff6f0f847ee18a6c4ad704a71281f214ff0561db9cac529",
+   "pv": 2,
+   "created": 1791929212,
+   "last": 0
+  }
+ ]
+}
